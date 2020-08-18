@@ -7,7 +7,7 @@ def join_nested_strings(src)
     element_index = 0
     while element_index < src[row_index].count do
       if src[row][element_index].is_a_s
-        combined_string += src[row][element]
+        combined_string += src[row_index][element]
       end
       row_index += 1
     end
